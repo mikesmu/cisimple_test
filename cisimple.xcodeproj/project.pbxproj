@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3001A64C16779F9B003C4BAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3001A64B16779F9B003C4BAC /* UIKit.framework */; };
+		3001A64E16779F9B003C4BAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3001A64D16779F9B003C4BAC /* Foundation.framework */; };
+		3001A65016779F9B003C4BAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3001A64F16779F9B003C4BAC /* CoreGraphics.framework */; };
+		3001A65216779F9B003C4BAC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3001A65116779F9B003C4BAC /* CoreData.framework */; };
+		3001A65816779F9B003C4BAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3001A65616779F9B003C4BAC /* InfoPlist.strings */; };
+		3001A65A16779F9B003C4BAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3001A65916779F9B003C4BAC /* main.m */; };
+		3001A65E16779F9B003C4BAC /* TPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3001A65D16779F9B003C4BAC /* TPAppDelegate.m */; };
+		3001A66016779F9B003C4BAC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3001A65F16779F9B003C4BAC /* Default.png */; };
+		3001A66216779F9B003C4BAC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3001A66116779F9B003C4BAC /* Default@2x.png */; };
+		3001A66416779F9B003C4BAC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3001A66316779F9B003C4BAC /* Default-568h@2x.png */; };
+		3001A66716779F9B003C4BAC /* cisimple.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3001A66516779F9B003C4BAC /* cisimple.xcdatamodeld */; };
+		3001A66A16779F9B003C4BAC /* TPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3001A66916779F9B003C4BAC /* TPMainViewController.m */; };
+		3001A66D16779F9B003C4BAC /* TPFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3001A66C16779F9B003C4BAC /* TPFlipsideViewController.m */; };
+		3001A67016779F9B003C4BAC /* TPMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3001A66E16779F9B003C4BAC /* TPMainViewController.xib */; };
+		3001A67316779F9B003C4BAC /* TPFlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3001A67116779F9B003C4BAC /* TPFlipsideViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3001A64716779F9B003C4BAC /* cisimple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cisimple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3001A64B16779F9B003C4BAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3001A64D16779F9B003C4BAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3001A64F16779F9B003C4BAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3001A65116779F9B003C4BAC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3001A65516779F9B003C4BAC /* cisimple-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cisimple-Info.plist"; sourceTree = "<group>"; };
+		3001A65716779F9B003C4BAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3001A65916779F9B003C4BAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3001A65B16779F9B003C4BAC /* cisimple-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cisimple-Prefix.pch"; sourceTree = "<group>"; };
+		3001A65C16779F9B003C4BAC /* TPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPAppDelegate.h; sourceTree = "<group>"; };
+		3001A65D16779F9B003C4BAC /* TPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPAppDelegate.m; sourceTree = "<group>"; };
+		3001A65F16779F9B003C4BAC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3001A66116779F9B003C4BAC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3001A66316779F9B003C4BAC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3001A66616779F9B003C4BAC /* cisimple.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cisimple.xcdatamodel; sourceTree = "<group>"; };
+		3001A66816779F9B003C4BAC /* TPMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPMainViewController.h; sourceTree = "<group>"; };
+		3001A66916779F9B003C4BAC /* TPMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPMainViewController.m; sourceTree = "<group>"; };
+		3001A66B16779F9B003C4BAC /* TPFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPFlipsideViewController.h; sourceTree = "<group>"; };
+		3001A66C16779F9B003C4BAC /* TPFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPFlipsideViewController.m; sourceTree = "<group>"; };
+		3001A66F16779F9B003C4BAC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TPMainViewController.xib; sourceTree = "<group>"; };
+		3001A67216779F9B003C4BAC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TPFlipsideViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3001A64416779F9B003C4BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3001A64C16779F9B003C4BAC /* UIKit.framework in Frameworks */,
+				3001A64E16779F9B003C4BAC /* Foundation.framework in Frameworks */,
+				3001A65016779F9B003C4BAC /* CoreGraphics.framework in Frameworks */,
+				3001A65216779F9B003C4BAC /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3001A63C16779F9B003C4BAC = {
+			isa = PBXGroup;
+			children = (
+				3001A65316779F9B003C4BAC /* cisimple */,
+				3001A64A16779F9B003C4BAC /* Frameworks */,
+				3001A64816779F9B003C4BAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3001A64816779F9B003C4BAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3001A64716779F9B003C4BAC /* cisimple.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3001A64A16779F9B003C4BAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3001A64B16779F9B003C4BAC /* UIKit.framework */,
+				3001A64D16779F9B003C4BAC /* Foundation.framework */,
+				3001A64F16779F9B003C4BAC /* CoreGraphics.framework */,
+				3001A65116779F9B003C4BAC /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3001A65316779F9B003C4BAC /* cisimple */ = {
+			isa = PBXGroup;
+			children = (
+				3001A65C16779F9B003C4BAC /* TPAppDelegate.h */,
+				3001A65D16779F9B003C4BAC /* TPAppDelegate.m */,
+				3001A66816779F9B003C4BAC /* TPMainViewController.h */,
+				3001A66916779F9B003C4BAC /* TPMainViewController.m */,
+				3001A66B16779F9B003C4BAC /* TPFlipsideViewController.h */,
+				3001A66C16779F9B003C4BAC /* TPFlipsideViewController.m */,
+				3001A66E16779F9B003C4BAC /* TPMainViewController.xib */,
+				3001A67116779F9B003C4BAC /* TPFlipsideViewController.xib */,
+				3001A66516779F9B003C4BAC /* cisimple.xcdatamodeld */,
+				3001A65416779F9B003C4BAC /* Supporting Files */,
+			);
+			path = cisimple;
+			sourceTree = "<group>";
+		};
+		3001A65416779F9B003C4BAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3001A65516779F9B003C4BAC /* cisimple-Info.plist */,
+				3001A65616779F9B003C4BAC /* InfoPlist.strings */,
+				3001A65916779F9B003C4BAC /* main.m */,
+				3001A65B16779F9B003C4BAC /* cisimple-Prefix.pch */,
+				3001A65F16779F9B003C4BAC /* Default.png */,
+				3001A66116779F9B003C4BAC /* Default@2x.png */,
+				3001A66316779F9B003C4BAC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3001A64616779F9B003C4BAC /* cisimple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3001A67616779F9B003C4BAC /* Build configuration list for PBXNativeTarget "cisimple" */;
+			buildPhases = (
+				3001A64316779F9B003C4BAC /* Sources */,
+				3001A64416779F9B003C4BAC /* Frameworks */,
+				3001A64516779F9B003C4BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cisimple;
+			productName = cisimple;
+			productReference = 3001A64716779F9B003C4BAC /* cisimple.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3001A63E16779F9B003C4BAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = tap;
+			};
+			buildConfigurationList = 3001A64116779F9B003C4BAC /* Build configuration list for PBXProject "cisimple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3001A63C16779F9B003C4BAC;
+			productRefGroup = 3001A64816779F9B003C4BAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3001A64616779F9B003C4BAC /* cisimple */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3001A64516779F9B003C4BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3001A65816779F9B003C4BAC /* InfoPlist.strings in Resources */,
+				3001A66016779F9B003C4BAC /* Default.png in Resources */,
+				3001A66216779F9B003C4BAC /* Default@2x.png in Resources */,
+				3001A66416779F9B003C4BAC /* Default-568h@2x.png in Resources */,
+				3001A67016779F9B003C4BAC /* TPMainViewController.xib in Resources */,
+				3001A67316779F9B003C4BAC /* TPFlipsideViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3001A64316779F9B003C4BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3001A65A16779F9B003C4BAC /* main.m in Sources */,
+				3001A65E16779F9B003C4BAC /* TPAppDelegate.m in Sources */,
+				3001A66716779F9B003C4BAC /* cisimple.xcdatamodeld in Sources */,
+				3001A66A16779F9B003C4BAC /* TPMainViewController.m in Sources */,
+				3001A66D16779F9B003C4BAC /* TPFlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3001A65616779F9B003C4BAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3001A65716779F9B003C4BAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3001A66E16779F9B003C4BAC /* TPMainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3001A66F16779F9B003C4BAC /* en */,
+			);
+			name = TPMainViewController.xib;
+			sourceTree = "<group>";
+		};
+		3001A67116779F9B003C4BAC /* TPFlipsideViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3001A67216779F9B003C4BAC /* en */,
+			);
+			name = TPFlipsideViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3001A67416779F9B003C4BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3001A67516779F9B003C4BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3001A67716779F9B003C4BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cisimple/cisimple-Prefix.pch";
+				INFOPLIST_FILE = "cisimple/cisimple-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3001A67816779F9B003C4BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cisimple/cisimple-Prefix.pch";
+				INFOPLIST_FILE = "cisimple/cisimple-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3001A64116779F9B003C4BAC /* Build configuration list for PBXProject "cisimple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3001A67416779F9B003C4BAC /* Debug */,
+				3001A67516779F9B003C4BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3001A67616779F9B003C4BAC /* Build configuration list for PBXNativeTarget "cisimple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3001A67716779F9B003C4BAC /* Debug */,
+				3001A67816779F9B003C4BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3001A66516779F9B003C4BAC /* cisimple.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3001A66616779F9B003C4BAC /* cisimple.xcdatamodel */,
+			);
+			currentVersion = 3001A66616779F9B003C4BAC /* cisimple.xcdatamodel */;
+			path = cisimple.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3001A63E16779F9B003C4BAC /* Project object */;
+}
